@@ -12,6 +12,6 @@ const Banner = styled.header`
     padding: 40px;
 `;
 
-export default function ElementSelector() {
-  return (<Banner >This is new Heading </Banner>);
+export default function TypeSelector() {
+  return (<Banner > TypeSelector heading </Banner>);
 }
