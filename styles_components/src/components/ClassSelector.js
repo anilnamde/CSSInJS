@@ -4,7 +4,7 @@ import styled from 'styled-components';
 // class selector
 // .someone
 
-const ClassBanner = styled.div`
+const ClassBanner = styled.div `
     .header {
         background-color: red;
         boder:1px solid green;
@@ -15,8 +15,9 @@ const ClassBanner = styled.div`
 `;
 
 export default function ClassSelector() {
-  return (<ClassBanner>
-    <div className="header"> {'Class Selector Construct'}
-    </div>
-  </ClassBanner>);
+    return ( < ClassBanner >
+        <
+        div className = "header" > { 'Class Selector Construct' } <
+        /div> < /
+        ClassBanner > );
 }

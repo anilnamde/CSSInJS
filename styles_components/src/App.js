@@ -10,6 +10,7 @@ import GeneralSiblingSelector from './components/GeneralSiblingSelector';
 import ChildCombinatorSelector from './components/ChildCombinatorSelector';
 import PseudoElementSelector from './components/PseudoElementSelector';
 import PseudoClassesSelector from './components/PseudoClassesSelector';
+import ResponsiveQuerySelector from './components/ResponsiveQuerySelector';
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
       <ChildCombinatorSelector />
       <PseudoElementSelector />
       <PseudoClassesSelector />
+      <ResponsiveQuerySelector />
     </div>
     );
   }
